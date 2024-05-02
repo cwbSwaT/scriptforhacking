@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu E-commerce</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="header-content">
+<div><img src="logo.png" class="logo"></div>
+<div class="barraDePesquisa">
+<input type="text" placeholder="Pesquisar...">
+<button type="submit">Buscar</button>
+</div>
+<div class="fraseDeImpacto">Um soldado da tiros, um hacker da Enter! </div>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="formulario.html">Criar sua Conta</a></li>
+<li><a href="#">Entrar</a></li>
+<li><a href="#">Carrinho</a></li>
+</ul>
+</nav>
+<section class="promocoes">
+<div class="promocoes-carrosel">
+<div class="promo-item">
+<img src="hack1.jpg" alt="Promoção 1">
+</div>
+<div class="promo-item">
+<img src="hack2.png" alt="Promoção 2">
+</div>
+
+<div class="promo-item">
+<img src="logo.png" alt="Promoção 3">
+</div>
+<!-- Botões de navegação -->
+<div class="navigation-buttons">
+<button class="prev" onclick="changePromo(-1)">❮</button>
+<button class="next" onclick="changePromo(1)">❯</button>
+</div>
+</div>
+</section>
+<section class="products">
+<h2>Produtos</h2>
+<ul>
+    <img src="produto1.png" alt="produto1" height="500px" width="500px"><li>R$ 70</li>
+    <img src="produto2.png" alt="produto2" height="500px" width="500px"><li>R$ 50</li>
+    <img src="produto3.png" alt="produto3" height="500px" width="500px"><li>R$ 400</li>
+
+<!-- Adicione mais produtos conforme necessário -->
+</ul>
+</section>
+<footer>
+    <p>&copy; 2024 Meu E-commerce. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
